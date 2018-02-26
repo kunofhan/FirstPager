@@ -88,12 +88,14 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
 
+            //滚动监听RecyclerView的事件，进行标题的显示和隐藏
             @Override
             public void onScrolled(RecyclerView recyclerView, int dx, int dy) {
                 super.onScrolled(recyclerView, dx, dy);
                 mHeight1 = ll_title.getHeight();
                 LinearLayoutManager layoutManager = (LinearLayoutManager) mRecycler.getLayoutManager();
                 int position = layoutManager.findFirstVisibleItemPosition();
+                //界面刚显示的时候显示 标题栏
                 if (position == 0) {
                     if (!isShow) {
                         isShow = true;
