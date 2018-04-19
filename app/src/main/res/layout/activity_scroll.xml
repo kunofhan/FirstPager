@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opcv.test.com.firstpager.SildingFinishLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/sildingFinishLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#556677">
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="750pt"
+                android:layout_height="1025pt"
+                android:scaleType="fitXY"
+                android:src="@mipmap/timg"/>
+
+            <ImageView
+                android:layout_marginTop="50pt"
+                android:layout_width="750pt"
+                android:layout_height="470pt"
+                android:scaleType="fitXY"
+                android:layout_marginBottom="750pt"
+                android:src="@mipmap/ss"/>
+        </LinearLayout>
+    </ScrollView>
+
+</opcv.test.com.firstpager.SildingFinishLayout>

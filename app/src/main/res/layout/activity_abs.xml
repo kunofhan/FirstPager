@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opcv.test.com.firstpager.SildingFinishLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/sildingFinishLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#556677">
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:cacheColorHint="@android:color/transparent">
+    </ListView>
+
+
+</opcv.test.com.firstpager.SildingFinishLayout>
